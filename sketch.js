@@ -316,6 +316,11 @@ function draw()
     textSize(40);
     textStyle(BOLD);
     textAlign(CENTER);
+	  
+    if(resultIndex==7 || resultIndex==2)
+    {
+       textSize(30);
+    }
     text(labelName[resultIndex], width/2,50);
     
     textStyle(NORMAL);
