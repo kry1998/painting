@@ -110,7 +110,7 @@ let moreInfo=[
   "https://www.youtube.com/watch?v=HBeH9KhQPww",
   "https://en.wikipedia.org/wiki/Ancient_Roman_sarcophagi",
   "https://en.wikipedia.org/wiki/Guerrilla_Girls",
-  "N/A",
+  "https://emuseum.nasher.duke.edu/objects/11178/door-from-a-chiefs-house;jsessionid=420F851333648414F2752AD47BECD520?ctx=8bfc7ad3-7445-40a6-a16b-03b104e7cc8f&idx=0",
 ]
 
 var h1;
@@ -259,14 +259,14 @@ function setup()
   
   //button for confirm detection result
   buttonMusicOkay = createButton('Okay');
-  buttonMusicOkay.position(200, 800);
+  buttonMusicOkay.position(550, 800);
   buttonMusicOkay.size(200, 100);
   //buttonMusicOkay.style("font-family", "Comic Sans MS");
   buttonMusicOkay.style("font-size", "48px");
   buttonMusicOkay.mousePressed(MusicOkay);
   
   buttonMusicExit = createButton('Exit');
-  buttonMusicExit.position(550, 800);
+  buttonMusicExit.position(200, 800);
   buttonMusicExit.size(200, 100);
   //buttonMusicExit.style("font-family", "Comic Sans MS");
   buttonMusicExit.style("font-size", "48px");
