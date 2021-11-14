@@ -526,6 +526,7 @@ function MusicExit()
 {
   toPlayMusic=false;
   isPlayingMusic=false;
+  document.getElementById("buttonListen").innerHTML = 'Listen';
   resetButtons();
 }
 
