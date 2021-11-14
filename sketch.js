@@ -241,14 +241,14 @@ function setup()
   
   //button for confirm detection result
   buttonConfirmDetect = createButton('Yes');
-  buttonConfirmDetect.position(500, 900);
+  buttonConfirmDetect.position(700, 900);
   buttonConfirmDetect.size(150, 80);
   //buttonConfirmDetect.style("font-family", "Comic Sans MS");
   buttonConfirmDetect.style("font-size", "40px");
   buttonConfirmDetect.mousePressed(ConfirmDetect);
   
   buttonCancelDetect = createButton('No');
-  buttonCancelDetect.position(700, 900);
+  buttonCancelDetect.position(500, 900);
   buttonCancelDetect.size(150, 80);
   //buttonCancelDetect.style("font-family", "Comic Sans MS");
   buttonCancelDetect.style("font-size", "40px");
