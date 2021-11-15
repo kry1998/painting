@@ -326,7 +326,7 @@ function draw()
     textStyle(NORMAL);
     textAlign(LEFT);
     
-    let val = slider.value()/255+1;
+    let val = slider.value()/255+2;
     //print(val)
      
     
@@ -437,6 +437,8 @@ function detectPainting()
   if(detectBtnPressCount==1)
   {
     document.getElementById("buttonDetect").innerHTML = 'Detect';
+    resultIndex=-1;
+    document.getElementById('info').value ="";
     capture.play();
   }
   if(detectBtnPressCount==2)
