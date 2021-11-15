@@ -20,7 +20,7 @@ let labelName=
 "Battle of the Sexes from the portfolio: Guerrilla Girls’ Most Wanted: 1985–2008",
 "Door from a chief’s house"
 ];
-
+ 
 let labelArtist=
 [
 "N/A",
